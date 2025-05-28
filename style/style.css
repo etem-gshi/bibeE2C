@@ -1,0 +1,55 @@
+/*Réglages généreux*/
+@font-face {
+    font-family: "police-titre";
+    src: url(./KGHAPPY.ttf);
+}
+
+@font-face {
+    font-family: "base";
+    src: url(./KGHAPPYSolid.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    /*Palette de couleur */
+    --couleur-claire:#F3F3E0 ;
+    --couleur-midclaire: #27548A;
+    --couleur-midfonce:#183B4E ;
+    --couleur-fonce:#DDA853 ;
+
+}
+
+body{
+    font-family: "base";
+    background-color: var(--couleur-midfonce);
+    color: var(--couleur-claire);
+    
+}
+h1{
+    font-family: "police-titre";
+    font-size: 3rem;
+    font-size: 2rem;
+}
+#logo{/*Réglage de la partie nav*/
+
+    width: 300px;
+}
+
+header{/*Réglage de la partie header*/
+
+background:linear-gradient( var(--couleur-claire),var(--couleur-fonce));
+color: var(--couleur-midclaire);
+height: 15vh;
+
+    display: flex;
+    flex-direction:column ;
+    justify-content:space-evenly;
+    align-items:center ;
+}
+
+/* Réglage de la partis main*/
+
+/* Réglage de la partis aside*/
