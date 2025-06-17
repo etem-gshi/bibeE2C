@@ -252,3 +252,66 @@ h4{
     margin-right: 30px;
 }
 
+/* la page game.html*/
+
+#main-game{
+    position: relative;
+    top:15vmin;
+
+    display:flex;
+    flex-direction:column;
+    justify-self: start;
+    align-items: center;
+
+    width: 100%;
+    padding: 25px;
+
+
+}
+
+#user-interface{
+    display: flex;
+    flex-direction:row;
+    justify-self: center;
+    align-items: center;
+
+}
+
+#user-number{
+    font-size: 1.3rem;
+    width: 15vw;
+    padding: 4px;
+    border-radius: 15px;
+
+}
+
+#user-number:focus{
+    background-color:var(--couleur-fonce);
+    color: var(--couleur-midclaire);
+}
+
+#send-button{
+    display: block;
+    font-size: 1.5rem;
+    padding: 4px;
+    margin-left: 10px; 
+
+    background-color: var(--couleur-claire);
+    border-radius: 10px;
+
+    box-shadow: var(--couleur-fonce) 3px 3px 5px 0;
+    transition: box-shadow 400ms;
+}
+
+#send-button:hover{
+    background-color: var(--couleur-midclaire);
+    box-shadow: 0 0 0 0;
+}
+
+.result-line {
+    font-family: "poilice-titre";
+    border:var(--couleur-fonce) solid 2px;
+    border-radius: 5px;
+    font-size: 1.8rem;
+    margin: 10px;
+}
